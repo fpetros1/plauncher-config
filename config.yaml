@@ -1,0 +1,25 @@
+environment:
+  MESA_DISK_CACHE_SINGLE_FILE: 1
+  MESA_SHADER_CACHE_DIR: $HOME/Games/.cache
+gamemode:
+  enabled: true
+mangohud:
+  enabled: true
+gamescope:
+  enabled: false
+  hdr: false
+  args:
+    - -f
+    - -e
+    - -r 165
+    - -w 3440
+    - -h 1440
+    - --hdr-sdr-content-nits 250
+umu:
+  enabled: true
+  proton: /usr/share/steam/compatibilitytools.d/proton-ge-custom
+pre-scripts:
+  - "xwayland-config"
+  - "gamemode-started"
+post-scripts:
+  - "gamemode-ended"

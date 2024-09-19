@@ -1,0 +1,8 @@
+gamemode:
+  enabled: true
+mangohud:
+  enabled: true
+gamescope:
+  enabled: true
+  args:
+    - --force-grab-cursor

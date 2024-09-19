@@ -1,0 +1,12 @@
+environment:
+  VKD3D_CONFIG: no_upload_hvv
+  LD_PRELOAD: ""
+gamemode:
+  enabled: true
+mangohud:
+  enabled: true
+gamescope: 
+  enabled: false
+  args:
+    - --force-grab-cursor
+
